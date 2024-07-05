@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="emp1" class="com.cdac.training.SpringCore.model.Employee">
+	
+	<!-- Invoke constructor - Dependency Injection using Constructor -->
+	
+	<constructor-arg value="1111" type="int"></constructor-arg>
+	<constructor-arg value="Rod Jhonson" type="String"></constructor-arg>
+	<constructor-arg value="500000" type="double"></constructor-arg>
+
+</bean>
+
+<bean id="emp2" class="com.cdac.training.SpringCore.model.Employee">
+	
+	<!-- Invoke constructor - Dependency Injection using Constructor -->
+	
+	<constructor-arg value="2222" type="int"></constructor-arg>
+	<constructor-arg value="Gavin King" type="String"></constructor-arg>
+	<constructor-arg value="400000" type="double"></constructor-arg>
+
+</bean>
+	
+</beans>
